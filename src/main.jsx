@@ -9,7 +9,7 @@ import Footer from './components/Footer/Footer.jsx';
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/Nft-MarketPlace-X1/'>
       <NavBarComponent />
       <App />
       <Footer/>

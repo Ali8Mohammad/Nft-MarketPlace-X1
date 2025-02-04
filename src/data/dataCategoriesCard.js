@@ -1,13 +1,21 @@
+import Art from './../assets/Images/CategoryIcon/Art.jpg'
+import Collectibles from './../assets/Images/CategoryIcon/Collectibles.png'
+import Music from './../assets/Images/CategoryIcon/Music.jpg'
+import Photography from './../assets/Images/CategoryIcon/Photography.png'
+import Video from './../assets/Images/CategoryIcon/Video.jpg'
+import Utility from './../assets/Images/CategoryIcon/Utility.png'
+import Sport from './../assets/Images/CategoryIcon/Sport.jpg'
+import VirtualWorlds from './../assets/Images/CategoryIcon/VirtualWorlds.png'
 
 export const dataCategoriesCard=[
 
-    {photo:"./public/Images/CategoryIcon/Art.jpg",title:'Art'},
-    {photo:"./public/Images/CategoryIcon/Collectibles.png",title:'Collectibles'},
-    {photo:"./public/Images/CategoryIcon/Music.jpg",title:'Music'},
-    {photo:"./public/Images/CategoryIcon/Photography.png",title:'Photography'},
-    {photo:"./public/Images/CategoryIcon/Video.jpg",title:'Video'},
-    {photo:"./public/Images/CategoryIcon/Utility.png",title:'Utility'},
-    {photo:"./public/Images/CategoryIcon/Sport.jpg",title:'Sport'},
-    {photo:"./public/Images/CategoryIcon/VirtualWorlds.png",title:'Virtual Worlds'}
+    {photo:Art ,title:'Art'},
+    {photo: Collectibles ,title:'Collectibles'},
+    {photo: Music, title:'Music'},
+    {photo: Photography, title:'Photography'},
+    {photo: Video, title:'Video'},
+    {photo: Utility, title:'Utility'},
+    {photo: Sport,title:'Sport'},
+    {photo: VirtualWorlds, title:'Virtual Worlds'}
 
 ];

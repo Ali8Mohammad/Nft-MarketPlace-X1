@@ -3,7 +3,7 @@ import { TrendingCollectionData } from '../../data/TrendingCollectionData'
 import TrendingCollectionCard from '../TrendingCollectionCard/TrendingCollectionCard'
 import Title from '../Title/Title'
 
-export default function TrendingCollection() {
+export default function   TrendingCollection() {
   return (
     <section className='iA-TrendingCollection-Section'>
       <div>

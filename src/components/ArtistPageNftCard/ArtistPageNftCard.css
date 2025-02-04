@@ -1,0 +1,40 @@
+.hn-artistNftCard{
+  padding: 80px 115px;
+  background-color: var( --bg-second-color);
+  gap: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  
+ 
+}
+.hn-cardNft{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 30px;
+}
+.hn-borderTop{
+  border-top: 1px solid var(  --bg-second-color);
+}
+
+@media(min-width:834px) and (max-width:1279px){
+  .hn-artistNftCard{
+      padding-left: 72px;
+      padding-right: 72px;
+  }
+  .hn-cardNft{
+      
+      grid-template-columns: repeat(2, 1fr); 
+  }
+
+}
+@media(min-width:375px) and (max-width:833px){
+  .hn-artistNftCard{
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+  .hn-cardNft{
+      
+      grid-template-columns: repeat(1, 1fr); 
+  }
+ 
+}

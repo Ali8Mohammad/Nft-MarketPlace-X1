@@ -1,0 +1,87 @@
+
+
+.bh-main-card-Discover{
+    background-color: var(--bg-second-color);
+    height: 469px;
+    width: 330px; /* for delete  */ 
+    border-radius: 20px;
+    color: var(--primary-text-color);
+    font-family: var(--space-mono);
+    margin-bottom: 20px;
+}
+.bh-main-card-Artist{
+    background-color: var(--bg-color);
+    height: 469px;
+    width: 330px; /* for delete  */ 
+    border-radius: 20px;
+    color: var(--primary-text-color);
+    font-family: var(--space-mono);
+    margin-bottom: 20px;
+}
+.bh-main-card-img{
+    border-radius: 20px 20px 0  0;
+    width: 100% ;
+    height: 296px;
+}
+.bh-main-card-desc{
+    padding: 20px 30px 25px 30px;
+}
+.bh-main-card-desc h5{
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 30.8px;
+    margin-bottom: 5px;
+    font-family: var(--work-sans) !important;
+}
+.bh-main-card-artist{
+    display: flex;
+    align-items: center;
+}
+.bh-main-card-artist img{
+    width: 24px;
+    height: 24px;
+    margin-right: 12px;
+}
+.bh-main-card-artist p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin: 0;
+}
+.bh-main-card-price{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bh-main-card-price-title{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13.2px;
+    color: var(--secondary-text-color) !important;
+    margin-bottom: 8px;
+}
+.bh-main-card-price-number{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    margin: 0;
+}
+
+
+@media (max-width:833px) {
+    .bh-main-card{
+        height: 402px;
+        width: 315px; /* for delete  */ 
+    }
+    .bh-main-card-img{
+        height: 238px;
+    }
+    .bh-main-card-desc{
+        padding: 20px 20px 25px 20px;
+    }
+    .bh-main-card-price-number{
+        font-size: 12px;
+        line-height: 13.2px;
+    }
+}

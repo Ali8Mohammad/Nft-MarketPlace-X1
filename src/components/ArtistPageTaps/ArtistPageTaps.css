@@ -1,0 +1,224 @@
+.hn-sectionTabs {
+  background-color: var(--bg-color);
+  padding: 10px 115px 0 115px;
+}
+.nav-underline {
+justify-content: space-between !important
+}
+.hn-creat,
+.hn-owned,
+.hn-collection,
+.hn-allTime {
+  padding-top: 14.5px;
+  gap: 16px;
+}
+.hn-tab1Artist,
+.hn-tab2Artist,
+.hn-tab3Artist,
+.hn-tab1Ranking,
+.hn-tab2Ranking,
+.hn-tab3Ranking,
+.hn-tab4Ranking,
+.hn-tab1Market,
+.hn-tab2Market {
+  font-weight: 600;
+  font-family: var(--work-sans);
+  size: 22px;
+  line-height: 30.8px;
+  align-items: center;
+}
+
+.hn-tab1Artist {
+  color: var(--primary-text-color) !important;
+  padding-left: 99px !important;
+  padding-right: 99px !important ;
+}
+
+.hn-tab2Artist {
+  color: var(--secondary-text-color) !important;
+  padding-left: 109px !important;
+  padding-right: 109px !important ;
+}
+.hn-tab3Artist {
+  color: var(--secondary-text-color) !important;
+  padding-left: 96.5px !important;
+  padding-right: 96.5px !important ;
+}
+
+.hn-302Artist,
+.hn-67Artist,
+.hn-4Artist,
+.hn-302Market,
+.hn-67Market {
+  padding-top: 14px;
+  padding-left: 16px;
+  gap: 10px;
+}
+
+.hn-tab1Ranking {
+  color: var(--primary-text-color) !important;
+  padding-left: 99.25px !important;
+  padding-right: 99.25px !important;
+}
+
+.hn-tab2Ranking {
+  color: var(--secondary-text-color) !important;
+  padding-left: 75.25px !important;
+  padding-right: 75.25px !important ;
+}
+.hn-tab3Ranking {
+  color: var(--secondary-text-color) !important;
+  padding-left: 70.25px !important;
+  padding-right: 70.25px !important ;
+}
+.hn-tab4Ranking {
+  color: var(--secondary-text-color) !important;
+  padding-left: 86.75px !important;
+  padding-right: 86.75px !important ;
+}
+.hn-tab1Market {
+  color: var(--primary-text-color) !important;
+  padding-left: 202.8px !important;
+  padding-right: 202.8px !important ;
+}
+.hn-tab2Market {
+  color: var(--secondary-text-color) !important;
+  padding-left: 173.5px !important;
+  padding-right: 173.5px !important ;
+}
+.hn-302Artist p,
+.hn-67Artist p,
+.hn-4Artist p,
+.hn-302Market p,
+.hn-67Market p {
+  font-family: var(--space-mono);
+  font-weight: 400;
+  size: 16px;
+  line-height: 22.4px;
+  color: var(--primary-text-color);
+  padding: 5px 10px;
+  border-radius: 20px;
+}
+.hn-302Artist p,
+.hn-302Market p {
+  background-color: var(--secondary-text-color);
+}
+.hn-67Artist p,
+.hn-4Artist p,
+.hn-67Market p {
+  background-color: var(--bg-second-color);
+}
+.hn-number {
+  display: flex;
+}
+.hn-4Market p,
+.hn-4Market,
+.hn-tab3Market,
+.hn-302Ranking,
+.hn-67Ranking,
+.hn-4Ranking {
+  display: none;
+}
+.hn-border {
+  border-bottom: 2px solid var(--secondary-text-color) !important;
+}
+
+@media (min-width: 834px) and (max-width: 1279px) {
+  .hn-sectionTabs {
+    padding-right: 77px;
+    padding-left: 77px;
+  }
+  .hn-tab1Artist,
+  .hn-tab2Artist,
+  .hn-tab3Artist,
+  .hn-tab1Ranking,
+  .hn-tab2Ranking,
+  .hn-tab3Ranking,
+  .hn-tab4Ranking,
+  .hn-tab1Market,
+  .hn-tab2Market {
+    size: 16px;
+    line-height: 22.4px;
+  }
+  .hn-tab1Artist,
+  .hn-tab2Artist,
+  .hn-tab3Artist,
+  .hn-tab1Ranking,
+  .hn-tab2Ranking,
+  .hn-tab3Ranking,
+  .hn-tab4Ranking,
+  .hn-tab1Market,
+  .hn-tab2Market {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+
+  .hn-creat,
+  .hn-owned,
+  .hn-collection,
+  .hn-allTime {
+    padding-top: 19px;
+  }
+  .hn-302Artist p,
+  .hn-67Artist p,
+  .hn-4Artist p {
+    size: 12px;
+    line-height: 13.2px;
+  }
+  .hn-302Artist,
+  .hn-67Artist,
+  .hn-4Artist {
+    padding-top: 18.5px;
+
+    padding-left: 26px;
+  }
+  .hn-302Market,
+  .hn-67Market {
+    padding-top: 14px;
+    padding-left: 26px;
+  }
+}
+@media (min-width: 375px) and (max-width: 832px) {
+  .hn-sectionTabs {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  .hn-tab1Artist,
+  .hn-tab2Artist,
+  .hn-tab3Artist,
+  .hn-tab1Ranking,
+  .hn-tab2Ranking,
+  .hn-tab3Ranking,
+  .hn-tab4Ranking,
+  .hn-tab1Market,
+  .hn-tab2Market {
+    size: 16px;
+    line-height: 22.4px;
+  }
+  .hn-tab1Artist,
+  .hn-tab2Artist,
+  .hn-tab3Artist,
+  .hn-tab1Ranking,
+  .hn-tab2Ranking,
+  .hn-tab3Ranking,
+  .hn-tab4Ranking,
+  .hn-tab1Market,
+  .hn-tab2Market {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+  }
+  .hn-creat,
+  .hn-owned,
+  .hn-collection,
+  .hn-allTime {
+    padding-top: 19px;
+  }
+
+  .hn-302Artist p,
+  .hn-67Artist p,
+  .hn-4Artist p,
+  .hn-302Market p,
+  .hn-67Market p {
+    display: none;
+  }
+}

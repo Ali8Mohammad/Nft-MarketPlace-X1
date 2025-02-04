@@ -1,0 +1,35 @@
+.hn-cardMarket{
+    padding:60px 115px 80px 115px;
+    background-color: var( --bg-second-color);
+    gap: 30px;
+    display: grid;
+    
+}
+.hn-cardNftMarket{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+}
+.hn-borderMarketTop{
+    border-top: 1px solid var(--bg-second-color);
+    border-bottom: 2px solid var(--bg-color);
+}
+
+@media (min-width:834px) and (max-width:1279px){
+    .hn-cardMarket{
+        padding-left: 77px;
+        padding-right: 77px;
+    }
+    .hn-cardNftMarket{ 
+        grid-template-columns: repeat(2, 1fr); }
+
+}
+@media (min-width:375px) and (max-width:833px){
+    .hn-cardMarket{
+      padding: 40px 30px;
+    }
+    .hn-cardNftMarket{ 
+        grid-template-columns: repeat(1, 1fr); }
+
+
+}

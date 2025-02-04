@@ -1,0 +1,89 @@
+.mh-Magic{
+    align-items: flex-end;
+    align-self: stretch;
+    background: 
+                linear-gradient(180deg, rgba(162, 89, 255, 0) 0%, rgb(162, 89, 255) 100%),
+                url('./../../../public/Images/TrendingCollection/PrimaryPhotoPlaceholder_1.jpg');
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    mix-blend-mode: normal;
+    padding: 360px 195px 60px;
+    position: relative;
+}
+.mh-Magic-MainDiv{
+    align-items: flex-end;
+    background-color: transparent;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-left: -80.00px;
+    margin-right: -80.00px;
+    position: relative;
+    width: 1050px;
+}
+.mh-Magic-part1{
+    align-items: flex-start;
+    background-color: transparent;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 30px;
+    height: auto;
+    position: relative;
+}
+.mh-Magic-h3{
+    align-self: stretch;
+    background-color: transparent;
+    letter-spacing: 0.00px;
+    line-height: 56.1px;
+    mix-blend-mode: normal;
+    position: relative;
+    text-align: left;
+    color: var(--primary-text-color);
+    font-family: var(--work-sans);
+    font-size: 51px ;
+    font-style: normal;
+    font-weight: 600;
+    margin: 0;
+}
+.mh-Magic-timer375px{
+    display: none;
+}
+@media(min-width: 834px) and (max-width:1279px){
+    .mh-Magic-MainDiv{
+        width: 670px;
+    }
+    .mh-Magic-h3{
+        font-size: 38px !important;
+        line-height: 45.6px !important;
+    }
+}
+@media (min-width: 375px) and (max-width: 833px){
+    .mh-Magic{
+        padding: 120px 195px 40px;
+    }
+    .mh-Magic-MainDiv{
+        flex-direction: column;
+        width: 315px;
+    }
+    .mh-Magic-h3{
+        font-size: 38px !important;
+        line-height: 45.6px;
+        width: 315px;
+        height: 92px;
+    }
+    .mh-Magic-timer{
+        display: none;
+    }
+    .mh-Magic-timer375px{
+        display: block;
+    }
+    .mh-btn-magic{
+        width: 315px;
+    }
+}

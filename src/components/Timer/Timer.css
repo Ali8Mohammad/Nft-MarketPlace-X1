@@ -1,0 +1,71 @@
+.mh-timer-Mashrooms,
+.mh-timer-NFT{
+    width: 295px;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.mh-timer-Mashrooms{
+    background-color: #3B3B3B80;
+    backdrop-filter: blur(10px);
+}
+.mh-timer-NFT{
+    background-color: var(--bg-second-color);
+}
+.mh-timer-subNFT{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.mh-timer-p{
+    width: 235px;
+    height: 13px;
+    font-family: var(--space-mono);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13.2px;
+    color: var(--primary-text-color);
+    margin: 0;
+}
+.mh-timer-MainDiv{
+    width: 235px;
+    height: 61px;
+    display: flex;
+    gap: 10px;
+}
+.mh-timer-2div{
+    width: 53px;
+    height: 100%;   
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.mh-timer-time{
+    width: 53px;
+    height: 46px;
+    font-family: var(--space-mono);
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 45.6px;
+    color: var(--primary-text-color);
+}
+.mh-timer-descTime{
+    width: 53px;
+    height: 10px;
+    font-family: var(--space-mono);
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13.2px;
+    color: var(--primary-text-color);
+}
+.mh-timer-comma{
+    width: 18px;
+    height: 39px;
+    font-family: var(--space-mono);
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 39.2px;
+    color: var(--primary-text-color);
+}

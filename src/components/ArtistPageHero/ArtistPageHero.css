@@ -1,0 +1,137 @@
+.hn-artistHeader{
+    background-color: var(--bg-color);  
+}
+.hn-hero{
+  height: 370px;
+    position: relative;
+}
+
+.hn-image1{
+    position: absolute;
+    z-index: 1;
+  
+}
+.hn-image2{
+ position: absolute;
+ z-index: 2;
+ left: 115px;
+ top: 250px;
+ border-radius: 20px;
+}
+
+.hn-sec2{
+ padding: 40px 115px;
+ gap: 30px;
+
+}
+
+.hn-animiked{
+    display: flex;
+    justify-content: space-between;
+  }
+  .hn-bio p,.hn-animiked h2{
+    font-family: var(--work-sans);
+
+  }
+  .hn-sec2 h5,.hn-bio p{
+    size: 22px;
+    line-height:35.2px ;
+  }
+  .hn-animiked h2{
+  font-weight:600;
+    size: 51px;
+    line-height: 56.1px;
+}
+.hn-sec2 h5{
+    font-weight: 700;
+    font-family: var(--space-mono);
+}
+.hn-bio p{
+    font-weight: 400;
+
+}
+.hn-sec2 h2 ,.hn-sec2 p{
+    color: var(--primary-text-color);
+}
+.hn-sec2 h5{
+    color: var(--secondary-text-color);
+}
+
+.hn-button{
+    display: flex;
+    gap: 20px;
+  
+}
+
+.hn-bio{
+   padding: 30px 0;
+   
+  
+}
+.hn-button-one{
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+  }
+  
+  .hn-button-two{
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+  }
+@media(min-width:834px) and (max-width:1279px){
+    .hn-sec2{
+        padding: 30px 72px;
+    }
+    .hn-hero{
+        height: 330px;
+    }
+    .hn-image1{
+        width: 100%;
+        height: 280px;
+    }
+    .hn-image2{
+        left: 72px;
+        top: 210px;
+    }
+    .hn-animiked{
+        flex-direction: column;
+    }
+    .hn-button{
+        padding: 30px 0;
+    }
+    
+
+  
+
+}
+@media (min-width:375px) and (max-width:833px){   
+     .hn-sec2{
+        padding: 30px;
+    }
+    .hn-hero{
+        height: 300px;
+    }
+    .hn-image1{
+        width: 100%;
+        height: 250px;
+    }
+    .hn-image2{
+        left: 127.5px;
+        top: 180px;
+        bottom: 50px;
+    }
+    .hn-animiked , .hn-button{
+     flex-direction: column;
+     
+    }
+   .hn-button{
+    padding: 30px 0;
+   }
+   .hn-button-one,.hn-button-two{
+    padding-left: 30px;
+    padding-right: 30px;
+    width:100%;
+   }
+}
+
+
+   

@@ -1,0 +1,18 @@
+.ranking-hero {
+  background-color: var(--bg-color);
+  padding: 80px;
+  height: 271px;
+  gap: 40px;
+}
+@media (max-width:834px) {
+  .ranking-hero {
+    height: 168px;
+    padding: 40px;
+  } 
+}
+@media (max-width:834px) {
+  .ranking-hero {
+    height: 153px;
+    padding: 30px;
+  } 
+}

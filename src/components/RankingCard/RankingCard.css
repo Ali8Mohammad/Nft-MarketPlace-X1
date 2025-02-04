@@ -1,0 +1,229 @@
+.af-ranking-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-second-color);
+  width: 1050px;
+  height: 84px;
+  border-radius: 20px;
+  padding: 12px 0;
+  gap: 20px;
+  margin: 0;
+}
+
+.af-ranking-card-header {
+  width: 430px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.af-ranking-card-id-pop {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--bg-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.af-ranking-card-id {
+  width: 10px;
+  height: 22px;
+  color: var(--secondary-text-color);
+  font-family: var(--space-mono);
+  font-weight: 400;
+  text-align: center;
+  font-size: 16px;
+  line-height: 22.4px;
+  margin: 0;
+}
+
+.af-desc-ranking {
+  gap: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+.af-ranking-card-img {
+  width: 60px;
+  height: 60px;
+  margin: 0;
+}
+
+.af-ranking-card-artist-name {
+  width: 300px;
+  height: 31px;
+  color: var(--primary-text-color);
+  font-family: var(--work-sans);
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 30.8px;
+  margin: 0;
+  text-wrap: nowrap;
+}
+.af-ranking-card-text {
+  width: 520px;
+  height: 22px;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.af-ranking-card-percent,
+.af-ranking-card-description,
+.af-ranking-card-sales {
+  width: 160px;
+  height: 22px;
+  font-family: var(--space-mono);
+  font-size: 16px;
+  line-height: 22.4px;
+  font-weight: 400;
+}
+.af-ranking-card-percent {
+  color: var(--green-numbers-color);
+}
+.af-ranking-card-description,
+.af-ranking-card-sales {
+  color: var(--primary-text-color);
+}
+/* Media Queries */
+@media (max-width:1200px) {
+  .af-ranking-card {
+    width: 984px;
+  }
+  .af-ranking-card-header {
+    width: 567px;
+  }
+}
+@media (max-width:992px) {
+  .af-ranking-card {
+    width: 831px;
+  }
+  .af-ranking-card-header {
+    width: 467px;
+  }
+  .af-ranking-card-percent,
+.af-ranking-card-description,
+.af-ranking-card-sales {
+  width: 128px;
+}
+}
+@media (max-width:834px) {
+  .af-ranking-card {
+    width: 690px;
+    height: 60px;
+    gap: 20px;
+
+  }
+  .af-ranking-card-header {
+    height: 31px;
+    width: 410px;
+  }
+  .af-ranking-card-id-pop {
+    background-color: transparent;
+  }
+  .af-ranking-card-id-pop{
+    background-color: var(--bg-second-color);
+    width: 24px;
+    height: 24px;
+  }
+  .af-desc-ranking {
+    height: 60px;
+    gap: 20px;
+  }
+  .af-ranking-card-img {
+    width: 24px;
+    height: 24px;
+  }
+  .af-ranking-card-artist-name {
+    height: 31px;
+    font-size: 22px;
+  }
+  .af-ranking-card-text {
+    height: 22px;
+    width: 220px;
+  }
+  .af-ranking-card-percent,
+  .af-ranking-card-sales {
+    height: 22px;
+  }
+  .af-ranking-card-description {
+    display: none;
+  }
+}
+@media (max-width:720px) {
+  .af-ranking-card {
+    width: 590px;
+  }
+  .af-ranking-card-header {
+    width: 345px;
+  }
+  .af-ranking-card-percent,
+.af-ranking-card-description,
+.af-ranking-card-sales {
+  width: 93px;
+}
+}
+@media (max-width:576px) {
+  .af-ranking-card {
+    width: 472px;
+  }
+  .af-ranking-card-header {
+    width: 272px;
+  }
+}
+@media ( max-width : 375px){
+  .af-ranking-card {
+    width: 315px;
+    height: 50px;
+  }
+  .af-ranking-card-header {
+    height: 24px;
+    gap: 10px;
+  }
+  .af-ranking-card-id-pop{
+    background-color: var(--bg-second-color);
+    width: 24px;
+    height: 24px;
+  }
+  .af-ranking-card-id {
+    width: 8px;
+    height: 13px;
+    font-size: 12px;
+    line-height: 13.2px;
+  }
+  .af-desc-ranking {
+    width: 167px;
+    height: 24px;
+  }
+  .af-ranking-card-img {
+    width: 24px;
+    height: 24px;
+  }
+  .af-ranking-card-artist-name {
+    height: 22px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+  }
+  .af-ranking-card-text {
+    height: 13px;
+    width: 80px;
+  }
+  .af-ranking-card-percent{
+    display: none;
+  }
+  .af-ranking-card-sales {
+    height: 13px;
+    font-size: 12px;
+    line-height: 13.2px;
+    
+  }
+}

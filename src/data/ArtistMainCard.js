@@ -1,15 +1,19 @@
+import Images_1 from './../assets/Images/Image.jpg'
+import Images_2 from './../assets/Images/Image-Placeholder.png'
+import Image_3 from './../assets/Images/Image-Placeholder_1.png'
+import animakid from './../assets/Images/ArtistAvatar/animakid.png'
 export const ArtistMainCard =[
     {
-        mainImg:"../../public/Images/Image.jpg",
+        mainImg: Images_1,
         title:"Distant Galaxy",
-        subImg:"../../public/Images/ArtistAvatar/animakid.png",
+        subImg: animakid,
         dsecImg:"Animakid",
         price:"1.63 ETH",
         highestBid:"0.33 wETH"
     }
     ,
     {
-        mainImg:"../../public/Images/Image-Placeholder.png",
+        mainImg: Images_2,
         title:"Life On Edena",
         subImg:"../../public/Images/ArtistAvatar/animakid.png",
         dsecImg:"Animakid",
@@ -18,7 +22,7 @@ export const ArtistMainCard =[
     }
     ,
     {
-        mainImg:"../../public/Images/Image-Placeholder_1.png",
+        mainImg: Image_3,
         title:"AstroFiction",
         subImg:"../../public/Images/ArtistAvatar/animakid.png",
         dsecImg:"Animakid",

@@ -1,10 +1,12 @@
 import React from 'react'
 import './NftPageHero.css'
 import Timer from '../Timer/Timer'
+import  PlaceHolder_2 from  './../../assets/Images/Image PlaceHolder (2).png'
+import  Avatar from  './../../assets/Images/myicones/Avatar.svg'
 export default function NftPageHero() {
   return (
   <section>
-     <img className='my-img-nft-ys' src='./../../../public/Images/Image PlaceHolder (2).png'></img>
+     <img className='my-img-nft-ys' src={PlaceHolder_2}></img>
      <div className='my-hero-nft-ys'>
      <div className='my-div-nft-ys'>
       <div className='div1-nft-ys'>
@@ -21,7 +23,7 @@ export default function NftPageHero() {
           <h5 className='text2-h5-div1-nft-ys'>Created By</h5>
           <p className='text2-p-div1-nft-ys'>Created By</p>
           <div className='my-img-des-nft-ys'>
-            <img className='img1-avatar-nft-ys' src='./../../../public/Images/myicones/Avatar.svg'></img>
+            <img className='img1-avatar-nft-ys' src= {Avatar}></img>
             <img  className='img2-avatar-nft-ys' src='./../../../public/Images/myicones/Asset 12 2.svg'></img>
             <h5 className='my-img-des-h5-nft-ys'>Orbitian</h5>
             <p className='my-img-des-p-nft-ys'>Orbitian</p>

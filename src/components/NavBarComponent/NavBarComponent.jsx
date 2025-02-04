@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import ButtonBh from "../ButtonBh/ButtonBh";
 import "./NavBarComponent.css";
 import { IoClose } from "react-icons/io5";
+import Logo from "../../assets/Images/Logo.png"
+import nav_button_icon from "../../assets/Images/nav/nav-button-icon.png"
+import nav_menu from "../../assets/Images/nav/nav_menu.svg"
 
 export default function NavBarComponent() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
@@ -38,7 +41,7 @@ export default function NavBarComponent() {
       <Link to="/">
         <img
           className="af-nav-img"
-          src="../../../public/Images/nav/Logo.svg"
+          src = {Logo}
           alt="logo"
         />
       </Link>
@@ -58,7 +61,7 @@ export default function NavBarComponent() {
               showIcon="true"
               buttonText="Sign Up"
               buttonClass="bh-button-one d-none d-md-flex af-nav-button"
-              buttonIcon="../../../public/Images/nav/nav-button-icon.png"
+              buttonIcon= {nav_button_icon}
             />
           </Link>
         </ul>
@@ -69,7 +72,7 @@ export default function NavBarComponent() {
         onClick={toggleSidebar}
         aria-label="Menu"
         aria-expanded={sidebarOpen}
-        src="../../../public/Images/nav/nav menu.svg"
+        src= {nav_menu}
         alt="Menu icon"
       />
       {sidebarOpen && (
@@ -83,7 +86,7 @@ export default function NavBarComponent() {
           <Link to="/">
             <img
               className="af-nav-img"
-              src="../../../public/Images/nav/Logo.svg"
+              src= {Logo}
               alt="logo"
             />
           </Link>

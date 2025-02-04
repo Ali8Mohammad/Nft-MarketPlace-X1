@@ -1,17 +1,17 @@
-
 import './ArtistPageHero.css'
 import data from './../../data/InfoUlCard'
 import InfoUlCard from '../InfoUlCard/InfoUlCard'
 import SocialMediaLink from '../SocialMediaLink/SocialMediaLink'
 import ButtonBh from '../ButtonBh/ButtonBh'
+import image1 from './../../assets/Images/Image-PlaceHolder_2.jpg'
 
 export default function ArtistPageHero() {
   return (
     <>
 <div className='hn-artistHeader'>
   <section>
-   <div className='hn-hero'>
-    <img src=" ./public/Images/Image-PlaceHolder_2.jpg" alt="image" className='hn-image1' /> 
+   <div className='hn-hero'>  
+    <img src={image1} alt="image" className='hn-image1' /> 
     <img src="./public/Images/Avatar.jpg" alt="image" className='hn-image2' />
      </div>
   </section>

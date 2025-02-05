@@ -1,7 +1,28 @@
+import img1 from './../assets/Images/ArtistAvatar/DigiLab.png'
+import img2 from './../assets/Images/ArtistAvatar/DigiLab.png'
+import img3 from './../assets/Images/ArtistAvatar/GravityOne.png'
+import img4 from './../assets/Images/ArtistAvatar/Juanie.png'
+import img5 from './../assets/Images/ArtistAvatar/BlueWhale.png'
+import img6 from './../assets/Images/ArtistAvatar/mr-fox.png'
+import img7 from './../assets/Images/ArtistAvatar/Shroomie.png'
+import img8 from './../assets/Images/ArtistAvatar/robotica.png'
+import img9 from './../assets/Images/ArtistAvatar/RustyRobot.png'
+import img10 from './../assets/Images/DiscoverMoreNFTs/NebulaKid.png'
+import img11 from './../assets/Images/ArtistAvatar/Allison.png'
+import img12 from './../assets/Images/ArtistAvatar/Davis.jpg'
+import img13 from './../assets/Images/Image-Placeholder_14.jpg'
+import img14 from './../assets/Images/ArtistAvatar/animakid.png'
+import img15 from './../assets/Images/DiscoverMoreNFTs/Spaceone.png'
+import img16 from './../assets/Images/DiscoverMoreNFTs/MoonDancer.png'
+import img17 from './../assets/Images/ArtistAvatar/Ghiblier.png'
+import img18 from './../assets/Images/ArtistAvatar/DigiLab.png'
+import img19 from './../assets/Images/DiscoverMoreNFTs/NebulaKid.png'
+import img20 from './../assets/Images/ArtistAvatar/GravityOne.png'
+
 export const dataRankingTopCreators = [
   {
       id: 1,
-      img: "./public/Images/ArtistAvatar/Keepitreal.png",
+      img: img1,
       title: "Jaydon Ekstrom Bothman",
       percent: "+1.41%",
       description: "602",
@@ -9,7 +30,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 2,
-      img: "./public/Images/ArtistAvatar/DigiLab.png",
+      img: img2,
       title: "Ruben Carder",
       percent: "+1.41%",
       description: "602",
@@ -17,7 +38,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 3,
-      img: "./public/Images/ArtistAvatar/GravityOne.png",
+      img: img3,
       title: "Alfredo Septimus",
       percent: "+1.41%",
       description: "602",
@@ -25,7 +46,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 4,
-      img: "./public/Images/ArtistAvatar/Juanie.png",
+      img: img4,
       title: "Davis Franci",
       percent: "+1.41%",
       description: "602",
@@ -33,7 +54,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 5,
-      img: "./public/Images/ArtistAvatar/BlueWhale.png",
+      img: img5,
       title: "Livia Rosser",
       percent: "+1.41%",
       description: "602",
@@ -41,7 +62,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 6,
-      img: "./public/Images/ArtistAvatar/mr-fox.png",
+      img: img6,
       title: "Kianna Donin",
       percent: "+1.41%",
       description: "602",
@@ -49,7 +70,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 7,
-      img: "./public/Images/ArtistAvatar/Shroomie.png",
+      img: img7,
       title: "Phillip Lipshutz",
       percent: "+1.41%",
       description: "602",
@@ -57,7 +78,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 8,
-      img: "./public/Images/ArtistAvatar/robotica.png",
+      img: img8,
       title: "Maria Rosser",
       percent: "+1.41%",
       description: "602",
@@ -65,7 +86,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 9,
-      img: "./public/Images/ArtistAvatar/RustyRobot.png",
+      img: img9,
       title: "Kianna Stanton",
       percent: "+1.41%",
       description: "602",
@@ -73,7 +94,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 10,
-      img: "./public/Images/DiscoverMoreNFTs/NebulaKid.png",
+      img: img10,
       title: "Angel Lubin",
       percent: "+1.41%",
       description: "602",
@@ -81,7 +102,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 11,
-      img: "./public/Images/ArtistAvatar/Allison.png",
+      img: img11,
       title: "Allison Torff",
       percent: "+1.41%",
       description: "602",
@@ -89,7 +110,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 12,
-      img: "./public/Images/ArtistAvatar/Davis.jpg",
+      img: img12,
       title: "Davis Workman",
       percent: "+1.41%",
       description: "602",
@@ -97,7 +118,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 13,
-      img: "./public/Images/Image-Placeholder_14.jpg",
+      img: img13,
       title: "Lindsey Lipshutz",
       percent: "+1.41%",
       description: "602",
@@ -105,7 +126,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 14,
-      img: "./public/Images/ArtistAvatar/animakid.png",
+      img: img14,
       title: "Randy Carder",
       percent: "+1.41%",
       description: "602",
@@ -113,7 +134,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 15,
-      img: "./public/Images/DiscoverMoreNFTs/Spaceone.png",
+      img: img15,
       title: "Lydia Culhane",
       percent: "+1.41%",
       description: "602",
@@ -121,7 +142,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 16,
-      img: "./public/Images/DiscoverMoreNFTs/MoonDancer.png",
+      img: img16,
       title: "Rayna Bator",
       percent: "+1.41%",
       description: "602",
@@ -129,7 +150,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 17,
-      img: "./public/Images/ArtistAvatar/Ghiblier.png",
+      img: img17,
       title: "Jocelyn Westervelt",
       percent: "+1.41%",
       description: "602",
@@ -137,7 +158,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 18,
-      img: "./public/Images/ArtistAvatar/Keepitreal.png",
+      img: img18,
       title: "Marilyn Torff",
       percent: "+1.41%",
       description: "602",
@@ -145,7 +166,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 19,
-      img: "./public/Images/DiscoverMoreNFTs/NebulaKid.png",
+      img:img19,
       title: "Skylar Levin",
       percent: "+1.41%",
       description: "602",
@@ -153,7 +174,7 @@ export const dataRankingTopCreators = [
   },
   {
       id: 20,
-      img: "./public/Images/ArtistAvatar/GravityOne.png",
+      img:img20,
       title: "Terry Dorwart",
       percent: "+1.41%",
       description: "602",

@@ -61,17 +61,6 @@
 }
 @media (max-width:720px) {
   .af-ranking-header {
-    width: 590px;
-  }
-
-}
-@media (max-width:576px) {
-  .af-ranking-header {
-    width: 472px;
-  }
-}
-@media (max-width:375px) {
-  .af-ranking-header {
     width: 315px;
   }
   .af-ranking-header p {
@@ -82,3 +71,5 @@
     display: none;
   }
 }
+
+
